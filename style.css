@@ -1,0 +1,28 @@
+html {
+  /* This fills the absolute outer edges of the browser window with black */
+  background-color: black; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* 1. The layout column that protects your text */
+  max-width: 900px;         /* The width of your content area. Adjust this to be wider or narrower */
+  margin: 0 auto;           /* Automatically calculates and pushes the black space to the left and right */
+  min-height: 100vh;        /* Ensures the middle section goes from the very top to the very bottom */
+  box-sizing: border-box;
+  padding: 40px;            /* Generates a safe cushion inside the column so text never hits the edge */
+  
+  /* 2. Your main content background */
+  background-color: #ffffff; /* Change this to whatever color you want behind your text (e.g., white, gray) */
+
+  /* 3. Your text alignment rules */
+  text-align: center;
+  color: #333333;           /* Change your font color so it stands out against the body background */
+}
+
+/* 4. Your perfectly centered lists */
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
